@@ -88,13 +88,17 @@ body {
 .short-stories{
   display : flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  gap : 2%;
 }
 
 #long-story-short-1,#long-story-short-2,#long-story-short-3{
   background-color: var(--bandeau);
   margin-top : 2rem;
+  border-radius: 12%;
+  padding : 2rem;
+  margin : 2%
 }
 
 .big-text{
