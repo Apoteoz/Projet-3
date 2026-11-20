@@ -1,0 +1,128 @@
+
+.ma-police-fraunces {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+.ma-police-dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing:auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --fond: #FAFAF8;
+  --surface: #F0EFEB;
+  --bandeau: #E4E2DC;
+  --texte: #1A1A1A;
+  --texte-secondaire: #5F5F5A;
+  --accent: #2F5BEA;
+
+  --police-titres: "Fraunces", serif;
+  --police-texte: "DM Sans", sans-serif;
+}
+
+body {
+  background: var(--fond);
+  color: var(--texte);
+  font-family: var(--police-texte);
+}
+
+#main-title {
+  font-family: var(--police-titres);
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+  padding : 1rem;
+  background: var(--bandeau);
+  height : 14rem;
+}
+
+.internship-section{
+  background: var(--surface);
+  padding: 2rem;
+  margin-left : 25%;
+  margin-right : 25%;
+  transform: translateY(-10rem);
+}
+
+.internship-header{
+  display : flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#internship-title{
+  font-family: var(--police-titres);
+  font-size : 2rem;
+}
+
+#internship-image {
+  border-radius: 50%;
+  width : 10%;
+  height : 10%;
+}
+
+#internship-paragraph, #intership-footer {
+  margin-top : 2rem;
+}
+
+.long-story-short-section{
+  margin-left : 10%;
+  margin-right : 10%;
+}
+
+#long-story-short-title,#about-me-title{
+  font-family: var(--police-titres);
+  font-size: 2rem;
+}
+
+.short-stories{
+  display : flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#long-story-short-1,#long-story-short-2,#long-story-short-3{
+  background-color: var(--bandeau);
+  margin-top : 2rem;
+}
+
+.big-text{
+  font-family: var(--police-titres);
+  font-size: 5rem;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  margin-top : 6rem;
+  background-color: var(--bandeau);
+}
+
+.about-me-section{
+  margin-top : 6rem;
+  margin-left : 10%;
+  margin-right : 10%;
+}
+
+.about-me-content{
+  display : flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap : 5%;
+}
+
+#about-me-image{
+  border-radius: 10%;
+  width : 20%;
+  height: 30%;
+}
