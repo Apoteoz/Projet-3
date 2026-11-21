@@ -35,12 +35,12 @@ body {
   background: var(--fond);
   color: var(--texte);
   font-family: var(--police-texte);
-  font-size : 1.5rem;
+  font-size : 1.2rem;
 }
 
 #main-title {
   font-family: var(--police-titres);
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-align: center;
   margin-top: 2rem;
   padding : 1rem;
@@ -88,7 +88,7 @@ body {
 
 #long-story-short-title,#about-me-title{
   font-family: var(--police-titres);
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .short-stories{
@@ -110,7 +110,7 @@ body {
 
 .big-text{
   font-family: var(--police-titres);
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: center;
   justify-content: center;
   align-content: center;
