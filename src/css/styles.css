@@ -35,6 +35,7 @@ body {
   background: var(--fond);
   color: var(--texte);
   font-family: var(--police-texte);
+  font-size : 1.25rem;
 }
 
 #main-title {
@@ -145,11 +146,12 @@ body {
 #support-title{
   font-family: var(--police-titres);
   font-size: 3rem;
-  padding : 1.25rem;
+  padding : 4rem;
   text-align: center;
 }
 
 .support-forms{
+  margin : -2rem;
   display : flex;
   flex-direction: row;
   justify-content: flex-start ;
@@ -161,7 +163,7 @@ body {
   gap : 2rem;
 }
 
-#name-section,#first-name-section,.support-who,.support-feedback{
+#company-section,#full-name-section,.support-who,.support-feedback{
   display : flex;
   flex-direction: column;
 }
@@ -175,20 +177,27 @@ body {
 }
 
 .support-feedback textarea{
-  min-height: 5rem;
+  min-height: 5em;
 }
 
 .support-submit{
   display : flex;
   flex-direction: row-reverse;
   flex-wrap: nowrap;
-  padding-bottom: 6rem;
+  padding-bottom: 14rem;
   padding-top : 2rem;
 }
 
 .support-submit button{
   width : 12rem;
   height : 2rem;
+}
+
+footer {
+  padding-top: 3rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--texte-secondaire);
 }
 
 /*Simple animation*/
@@ -198,7 +207,7 @@ html{
 }
 
 button{
-  transition : var(--bandeau) 0.25s ease, var(--surface) 0.25s ease, transform 0.25s ease; 
+  transition : background-color 0.25s ease, color 0.25s ease, transform 0.25s ease; 
 }
 
 button:hover{
