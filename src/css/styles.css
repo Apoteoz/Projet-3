@@ -35,14 +35,23 @@ body {
   background: var(--fond);
   color: var(--texte);
   font-family: var(--police-texte);
-  font-size : 1.2rem;
+  font-size : 1.5rem;
+}
+
+nav{
+  list-style: none;
+}
+
+nav img{
+  max-width: 1.5rem;
+  max-height: 1.5rem;
 }
 
 #main-title {
   font-family: var(--police-titres);
-  font-size: 3rem;
+  font-size: 5rem;
   text-align: center;
-  margin-top: 2rem;
+  margin-top : -1rem;
   padding : 1rem;
   background: var(--bandeau);
   height : 14rem;
@@ -88,7 +97,7 @@ body {
 
 #long-story-short-title,#about-me-title{
   font-family: var(--police-titres);
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .short-stories{
@@ -110,7 +119,7 @@ body {
 
 .big-text{
   font-family: var(--police-titres);
-  font-size: 4rem;
+  font-size: 5rem;
   text-align: center;
   justify-content: center;
   align-content: center;
@@ -145,13 +154,19 @@ body {
 
 #support-title{
   font-family: var(--police-titres);
-  font-size: 4rem;
+  font-size: 5rem;
   padding : 4rem;
   text-align: center;
 }
 
+#support-paragraph{
+  margin-top : -2rem;
+  text-align: center;
+  font-size : 2rem;
+}
+
 .support-forms{
-  margin : -2rem;
+  margin-top : 2rem;
   display : flex;
   flex-direction: row;
   justify-content: flex-start ;
