@@ -1,3 +1,4 @@
+/*Font import*/
 
 .ma-police-fraunces {
   font-family: "Fraunces", serif;
@@ -15,6 +16,8 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/*Variables declaration*/
 
 :root {
   --fond: #FAFAF8;
@@ -186,4 +189,23 @@ body {
 .support-submit button{
   width : 12rem;
   height : 2rem;
+}
+
+/*Simple animation*/
+
+html{
+  scroll-behavior : smooth;
+}
+
+button{
+  transition : var(--bandeau) 0.25s ease, var(--surface) 0.25s ease, var(--fond) 0.25s ease; 
+}
+
+button:hover{
+  transform : translateY(-2px);
+}
+
+img:hover{
+  transform: scale(1.1);
+  transition : scale(1.1) 0.3s;
 }
