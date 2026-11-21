@@ -35,12 +35,12 @@ body {
   background: var(--fond);
   color: var(--texte);
   font-family: var(--police-texte);
-  font-size : 1.25rem;
+  font-size : 1.5rem;
 }
 
 #main-title {
   font-family: var(--police-titres);
-  font-size: 3rem;
+  font-size: 3.5rem;
   text-align: center;
   margin-top: 2rem;
   padding : 1rem;
@@ -88,7 +88,7 @@ body {
 
 #long-story-short-title,#about-me-title{
   font-family: var(--police-titres);
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .short-stories{
@@ -127,8 +127,8 @@ body {
 .about-me-content{
   display : flex;
   flex-direction: row;
-  align-content: center;
-  justify-content: center;
+  align-items: center;
+  justify-items: center;
   gap : 5%;
 }
 
@@ -145,7 +145,7 @@ body {
 
 #support-title{
   font-family: var(--police-titres);
-  font-size: 3rem;
+  font-size: 4rem;
   padding : 4rem;
   text-align: center;
 }
@@ -163,7 +163,7 @@ body {
   gap : 2rem;
 }
 
-#company-section,#full-name-section,.support-who,.support-feedback{
+#full-name-section,#email-section,.support-who,.support-feedback{
   display : flex;
   flex-direction: column;
 }
@@ -195,6 +195,7 @@ body {
 
 footer {
   padding-top: 3rem;
+  padding-bottom: 2rem;
   text-align: center;
   font-size: 0.9rem;
   color: var(--texte-secondaire);
