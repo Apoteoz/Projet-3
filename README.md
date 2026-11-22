@@ -25,7 +25,7 @@ Le portfolio comprend notamment :
 
 ```text
 Projet-3/
-├── src/
+├── docs/
 │   ├── css/
 │   │   ├── normalize.css
 │   │   └── styles.css
