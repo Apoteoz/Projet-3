@@ -1,6 +1,6 @@
 ## À propos
 
-Ce site(https://apoteoz.github.io/Projet-3/) présente mon parcours, mes recherches de stage et mon profil.
+[Ce site](https://apoteoz.github.io/Projet-3/) présente mon parcours, mes recherches de stage et mon profil.
 
 Je suis étudiant en informatique à Télécom Saint-Étienne et je recherche un stage de six mois à partir de janvier 2027. Mes principaux intérêts sont le développement logiciel et les applications basées sur C et C++.
 
